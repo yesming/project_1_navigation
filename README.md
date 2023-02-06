@@ -21,7 +21,7 @@ source activate drlnd
 
 
 ## Project
-Project 
+The goal is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 ## State Space and Action space
 The state space has 37 dimensions and contains the agent's velocity, alogn with ray-based perception of objects around the agent's forward direction.
@@ -35,4 +35,5 @@ And the discretized actions are described as below
 ```
 
 ## Reward and Evaluate
-The agent gets +1 reward when it can reach to yellow banana
+The agent gets +1 reward when the agent collects a yellow banana. However, a reward of -1 is provided for collecting a blue banana.
+The 
