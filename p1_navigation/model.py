@@ -20,6 +20,7 @@ class QNetwork(nn.Module):
         self.fc1 = nn.Linear(state_size, fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
         self.fc3 = nn.Linear(fc2_units, action_size)
+        print('QNetwork initialize done')
 
     def forward(self, state):
         """Build a network that maps state -> action values."""
