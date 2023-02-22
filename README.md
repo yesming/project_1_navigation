@@ -9,10 +9,6 @@ Espectially, in this repo, I will deal with the first project, Navigation.
 - anaconda
 - setup virtual environment using 'python' folder
 
-## Dependencies
-TODO: conda list
-
-
 ## How to start
 This project is supposed that you have anaconda.
 
