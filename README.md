@@ -67,7 +67,7 @@ The agent was successfully learned the purpose(which is gathering yellow banana)
 
 The learning video is ...
 
-![learning_process](learning.gif)
+![learning_process](navigation.gif)
 
 
 The result of learning is ...
