@@ -12,10 +12,6 @@ Espectially, in this repo, I will deal with the first project, Navigation.
 ## Dependencies
 TODO: conda list
 
-## The code structure of this project
-- p1_navigation
-  - 
-  - cc
 
 ## How to start
 This project is supposed that you have anaconda.
