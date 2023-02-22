@@ -4,16 +4,17 @@ Espectially, in this repo, I will deal with the first project, Navigation.
 
 **Note : The version of pytorch is 1.4.0. The original version from udacity is 0.4.0. Due to the version of numpy, I upgraded the version of pytorch.**
 
-## Prerequisites
-OS: Ubuntu 20.04
-install anaconda
+## **Prerequisites**
+- OS: Ubuntu 20.04
+- anaconda
+- setup virtual environment using 'python' folder
 
 ## Dependencies
 TODO: conda list
 
 ## The code structure of this project
-- aa
-  - bb
+- p1_navigation
+  - 
   - cc
 
 ## How to start
@@ -33,10 +34,10 @@ conda create --name drlnd python=3.6
 source activate drlnd
 ```
 
-**2. Execute**
+**2. Environment setup and Execute**
 ```bash
-conda activate drlnd
-cd p1_navigation
+cd p1_navigation/python
+pip install .
 ```
 you can see the file 'Navigation.ipynb'
 Execute the file on the jupyter environment.
@@ -58,3 +59,17 @@ And the discretized actions are described as below
 
 ## Reward and Evaluate
 The agent gets +1 reward when the agent collects a yellow banana. However, a reward of -1 is provided for collecting a blue banana.
+
+--------------------------
+
+## Result
+The agent was successfully learned the purpose(which is gathering yellow banana). At the end of learning, an average of reward is achieved about 15 points.
+
+The learning video is ...
+
+![learning_process](learning.gif)
+
+
+The result of learning is ...
+
+![result_of_learning](./output.png)
