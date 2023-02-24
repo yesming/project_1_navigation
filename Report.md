@@ -83,7 +83,7 @@ where ***state_size=37***, ***action_size = 4***.
 
 ## Result
 The agent learned the strategy how to collect yellow bananas through over 1,000 episodes with random imput and memoery buffer.
-According to the below fiture. The learning is sucess (The average score is over the 13.).
+According to the below figure. The learning is sucess (The average score is over the 13.).
 
 ![result](output.png)
 
